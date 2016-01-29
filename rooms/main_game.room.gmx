@@ -52,6 +52,7 @@
   </views>
   <instances>
     <instance objName="player_obj" x="416" y="320" name="inst_A5A47733" locked="0" code="" scaleX="2.06451606750488" scaleY="2.06451606750488" colour="4294967295" rotation="0"/>
+    <instance objName="global_keystrokes_obj" x="0" y="0" name="inst_018A4BD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_tileset_main" x="32" y="32" w="32" h="32" xo="288" yo="256" id="10000449" name="inst_9557C5BF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

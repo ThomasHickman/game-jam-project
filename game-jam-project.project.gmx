@@ -7,9 +7,12 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\tree</sprite>
-    <sprite>sprites\player_sprite</sprite>
     <sprite>sprites\menu_play</sprite>
     <sprite>sprites\menu_help</sprite>
+    <sprite>sprites\player_down</sprite>
+    <sprite>sprites\player_up</sprite>
+    <sprite>sprites\player_right</sprite>
+    <sprite>sprites\player_left</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_tileset_main</background>

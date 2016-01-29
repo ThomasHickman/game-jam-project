@@ -5,12 +5,29 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\player_spr</sprite>
+    <sprite>sprites\tree</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\init.gml</script>
+    <script>scripts\script1.gml</script>
+    <script>scripts\player_movement.gml</script>
   </scripts>
+  <objects name="objects">
+    <object>objects\player_obj</object>
+    <object>objects\tree_obj</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\main_game</room>
+    <room>rooms\menu</room>
+    <room>rooms\pause_screen</room>
+  </rooms>
+  <constants number="1">
+    <constant name="SPEED">10</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>

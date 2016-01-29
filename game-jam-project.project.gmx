@@ -8,22 +8,29 @@
   <sprites name="sprites">
     <sprite>sprites\player_spr</sprite>
     <sprite>sprites\tree</sprite>
+    <sprite>sprites\menu_play</sprite>
+    <sprite>sprites\menu_help</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\init.gml</script>
-    <script>scripts\script1.gml</script>
+    <script>scripts\menu_creation.gml</script>
     <script>scripts\player_movement.gml</script>
+    <script>scripts\global_keystrokes_control.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\player_obj</object>
     <object>objects\tree_obj</object>
+    <object>objects\menu_play_spr</object>
+    <object>objects\menu_help_spr</object>
+    <object>objects\global_keystrokes_obj</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\main_game</room>
     <room>rooms\menu</room>
+    <room>rooms\main_game</room>
     <room>rooms\pause_screen</room>
+    <room>rooms\help_screen</room>
   </rooms>
   <constants number="1">
     <constant name="SPEED">10</constant>

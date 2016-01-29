@@ -8,7 +8,7 @@
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
-  <colour>15465588</colour>
+  <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code></code>
   <enableViews>0</enableViews>
@@ -50,11 +50,7 @@
     <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
-  <instances>
-    <instance objName="menu_play_spr" x="288" y="224" name="inst_C7BB2D5B" locked="0" code="" scaleX="4.48000001907349" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="menu_help_spr" x="288" y="352" name="inst_A41729DE" locked="0" code="" scaleX="4.48000001907349" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="global_keystrokes_obj" x="0" y="0" name="inst_50243D05" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
-  </instances>
+  <instances/>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

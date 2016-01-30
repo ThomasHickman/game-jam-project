@@ -38,7 +38,6 @@
     <script>scripts\createBorder.gml</script>
     <script>scripts\draw_pause.gml</script>
     <script>scripts\add_task.gml</script>
->>>>>>> 77cc58dbca04e34a7073da4f8c294de0c0cefcd0
   </scripts>
   <fonts name="fonts">
     <font>fonts\overhead_font</font>
@@ -49,17 +48,14 @@
     <object>objects\menu_play_spr</object>
     <object>objects\menu_help_spr</object>
     <object>objects\global_keystrokes_obj</object>
-<<<<<<< HEAD
     <object>objects\elder_obj</object>
     <object>objects\overhead_text_obj</object>
-=======
     <object>objects\pause_screen_obj</object>
     <object>objects\collision_obj</object>
     <object>objects\grey_backdrop_obj</object>
     <object>objects\side_panel_background_obj</object>
     <object>objects\sun_obj</object>
     <object>objects\scroll_obj</object>
->>>>>>> 77cc58dbca04e34a7073da4f8c294de0c0cefcd0
   </objects>
   <rooms name="rooms">
     <room>rooms\main_game</room>

@@ -22,6 +22,7 @@
     <sprite>sprites\sun_spr</sprite>
     <sprite>sprites\side_background</sprite>
     <sprite>sprites\scroll</sprite>
+    <sprite>sprites\task_background</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_tileset_main</background>
@@ -33,7 +34,6 @@
     <script>scripts\player_movement.gml</script>
     <script>scripts\global_keystrokes_control.gml</script>
     <script>scripts\overhead_text_control.gml</script>
-=======
     <script>scripts\copyRoomToRoom.gml</script>
     <script>scripts\createBorder.gml</script>
     <script>scripts\draw_pause.gml</script>
@@ -56,6 +56,7 @@
     <object>objects\side_panel_background_obj</object>
     <object>objects\sun_obj</object>
     <object>objects\scroll_obj</object>
+    <object>objects\task_background_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\main_game</room>

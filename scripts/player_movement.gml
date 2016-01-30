@@ -6,6 +6,10 @@ if(keyboard_check(vk_shift)){
     currSpeed = 30;
 }
 
+if(keyboard_check_pressed(vk_f2)){
+    add_task("Text task")
+}
+
 if(keyboard_check(vk_left)) {
     move_contact_solid(180, currSpeed);
     sprite_index = player_left;

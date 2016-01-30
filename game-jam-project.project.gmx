@@ -6,23 +6,33 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\tree</sprite>
-    <sprite>sprites\menu_play</sprite>
-    <sprite>sprites\menu_help</sprite>
-    <sprite>sprites\player_down</sprite>
-    <sprite>sprites\player_up</sprite>
-    <sprite>sprites\player_right</sprite>
-    <sprite>sprites\player_left</sprite>
-    <sprite>sprites\elder_idle</sprite>
-    <sprite>sprites\pause_screen_spr</sprite>
-    <sprite>sprites\game_background</sprite>
-    <sprite>sprites\pause_title</sprite>
     <sprite>sprites\collision_spr</sprite>
-    <sprite>sprites\grey_backdrop</sprite>
-    <sprite>sprites\sun_spr</sprite>
-    <sprite>sprites\side_background</sprite>
-    <sprite>sprites\scroll</sprite>
-    <sprite>sprites\task_background</sprite>
+    <sprites name="world_sprs">
+      <sprite>sprites\tree</sprite>
+      <sprite>sprites\game_background</sprite>
+      <sprite>sprites\grey_backdrop</sprite>
+    </sprites>
+    <sprites name="npc_sprs">
+      <sprite>sprites\elder_idle</sprite>
+    </sprites>
+    <sprites name="hud_sprs">
+      <sprite>sprites\side_background_spr</sprite>
+      <sprite>sprites\scroll_spr</sprite>
+      <sprite>sprites\sun_spr</sprite>
+      <sprite>sprites\task_background_spr</sprite>
+    </sprites>
+    <sprites name="menu_sprs">
+      <sprite>sprites\menu_help_spr</sprite>
+      <sprite>sprites\menu_play_spr</sprite>
+      <sprite>sprites\pause_screen_spr</sprite>
+      <sprite>sprites\pause_title_spr</sprite>
+    </sprites>
+    <sprites name="player_sprs">
+      <sprite>sprites\player_down_spr</sprite>
+      <sprite>sprites\player_up_spr</sprite>
+      <sprite>sprites\player_right_spr</sprite>
+      <sprite>sprites\player_left_spr</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_tileset_main</background>
@@ -30,33 +40,44 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\init.gml</script>
-    <script>scripts\menu_creation.gml</script>
     <script>scripts\player_movement.gml</script>
     <script>scripts\global_keystrokes_control.gml</script>
-    <script>scripts\overhead_text_control.gml</script>
-    <script>scripts\copyRoomToRoom.gml</script>
-    <script>scripts\createBorder.gml</script>
-    <script>scripts\draw_pause.gml</script>
     <script>scripts\add_task.gml</script>
+    <scripts name="menu_scrs">
+      <script>scripts\menu_creation.gml</script>
+      <script>scripts\draw_pause.gml</script>
+    </scripts>
+    <scripts name="hud_scrs">
+      <script>scripts\overhead_text_control.gml</script>
+      <script>scripts\createBorder.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\overhead_font</font>
   </fonts>
   <objects name="objects">
     <object>objects\player_obj</object>
-    <object>objects\tree_obj</object>
-    <object>objects\menu_play_spr</object>
-    <object>objects\menu_help_spr</object>
     <object>objects\global_keystrokes_obj</object>
-    <object>objects\elder_obj</object>
-    <object>objects\overhead_text_obj</object>
-    <object>objects\pause_screen_obj</object>
     <object>objects\collision_obj</object>
-    <object>objects\grey_backdrop_obj</object>
-    <object>objects\side_panel_background_obj</object>
-    <object>objects\sun_obj</object>
-    <object>objects\scroll_obj</object>
-    <object>objects\task_background_obj</object>
+    <objects name="npc_objs">
+      <object>objects\elder_obj</object>
+    </objects>
+    <objects name="hud_objs">
+      <object>objects\scroll_obj</object>
+      <object>objects\side_panel_background_obj</object>
+      <object>objects\sun_obj</object>
+      <object>objects\task_background_obj</object>
+      <object>objects\overhead_text_obj</object>
+    </objects>
+    <objects name="menu_objs">
+      <object>objects\pause_screen_obj</object>
+      <object>objects\menu_play_obj</object>
+      <object>objects\menu_help_obj</object>
+    </objects>
+    <objects name="world_objs">
+      <object>objects\tree_obj</object>
+      <object>objects\grey_backdrop_obj</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\main_game</room>

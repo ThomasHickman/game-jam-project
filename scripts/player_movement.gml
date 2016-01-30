@@ -12,12 +12,12 @@ if(keyboard_check_pressed(vk_f2)){
 
 if(keyboard_check(vk_left)) {
     move_contact_solid(180, currSpeed);
-    sprite_index = player_left;
+    sprite_index = player_left_spr;
     idle = false
     }
 else if(keyboard_check(vk_right)) {
     move_contact_solid(0, currSpeed);
-    sprite_index = player_right;
+    sprite_index = player_right_spr;
     idle = false;
     }
 else {
@@ -26,12 +26,12 @@ else {
 
 if(keyboard_check(vk_up)) {
     move_contact_solid(90, currSpeed);
-    sprite_index = player_up;
+    sprite_index = player_up_spr;
     idle = false;
     }
 else if(keyboard_check(vk_down)) {
     move_contact_solid(270, currSpeed);
-    sprite_index = player_down;
+    sprite_index = player_down_spr;
     idle = false;
     }
 else vspeed = 0;

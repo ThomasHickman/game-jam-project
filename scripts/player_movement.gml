@@ -1,12 +1,18 @@
 var idle = true;
 
+var currSpeed = SPEED;
+
+if(keyboard_check(vk_shift)){
+    currSpeed = 30;
+}
+
 if(keyboard_check(vk_left)) {
-    hspeed = -SPEED;
+    move_contact_solid(180, currSpeed);
     sprite_index = player_left;
     idle = false
     }
 else if(keyboard_check(vk_right)) {
-    hspeed = SPEED;
+    move_contact_solid(0, currSpeed);
     sprite_index = player_right;
     idle = false;
     }
@@ -15,12 +21,12 @@ else {
     }
 
 if(keyboard_check(vk_up)) {
-    vspeed = -SPEED;
+    move_contact_solid(90, currSpeed);
     sprite_index = player_up;
     idle = false;
     }
 else if(keyboard_check(vk_down)) {
-    vspeed = SPEED;
+    move_contact_solid(270, currSpeed);
     sprite_index = player_down;
     idle = false;
     }

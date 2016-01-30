@@ -22,6 +22,7 @@
     <sprite>sprites\sun_spr</sprite>
     <sprite>sprites\side_background</sprite>
     <sprite>sprites\scroll</sprite>
+    <sprite>sprites\task_background</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_tileset_main</background>
@@ -33,11 +34,12 @@
     <script>scripts\player_movement.gml</script>
     <script>scripts\global_keystrokes_control.gml</script>
     <script>scripts\overhead_text_control.gml</script>
-=======
     <script>scripts\copyRoomToRoom.gml</script>
     <script>scripts\createBorder.gml</script>
     <script>scripts\draw_pause.gml</script>
     <script>scripts\add_task.gml</script>
+    <script>scripts\remove_task.gml</script>
+    <script>scripts\add_to_inventory.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\overhead_font</font>
@@ -45,8 +47,8 @@
   <objects name="objects">
     <object>objects\player_obj</object>
     <object>objects\tree_obj</object>
-    <object>objects\menu_play_spr</object>
-    <object>objects\menu_help_spr</object>
+    <object>objects\menu_play_obj</object>
+    <object>objects\menu_help_obj</object>
     <object>objects\global_keystrokes_obj</object>
     <object>objects\elder_obj</object>
     <object>objects\overhead_text_obj</object>

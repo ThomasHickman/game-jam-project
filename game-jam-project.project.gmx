@@ -13,6 +13,7 @@
     <sprite>sprites\player_up</sprite>
     <sprite>sprites\player_right</sprite>
     <sprite>sprites\player_left</sprite>
+    <sprite>sprites\elder_idle</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_tileset_main</background>
@@ -23,13 +24,19 @@
     <script>scripts\menu_creation.gml</script>
     <script>scripts\player_movement.gml</script>
     <script>scripts\global_keystrokes_control.gml</script>
+    <script>scripts\overhead_text_control.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\overhead_font</font>
+  </fonts>
   <objects name="objects">
     <object>objects\player_obj</object>
     <object>objects\tree_obj</object>
     <object>objects\menu_play_spr</object>
     <object>objects\menu_help_spr</object>
     <object>objects\global_keystrokes_obj</object>
+    <object>objects\elder_obj</object>
+    <object>objects\overhead_text_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu</room>
